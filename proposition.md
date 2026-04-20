@@ -9,20 +9,20 @@ Mon projet consiste à mettre en place un serveur IA local (self-hosted) capable
 ## Prérecherche – Trois idées explorées
 
 ### Idée 1 – Un outil qui résume tes notes de cours avec l'IA
-Des fois avant un examen, j'ai plein de notes partout, des PDF, des Google Docs, des screenshots. L'idée c'était de faire un petit outil où tu pitches toutes tes notes en vrac et l'IA te fait un résumé clean avec les points importants, genre les trucs à retenir.Mais après y avoir pensé, je me suis dit que c'est surtout juste envoyer du texte à une API et afficher le résultat. j'apprendrais pas grand-chose sur comment l'IA fonctionne .
+Des fois avant un examen, j'ai plein de notes partout, des PDF, des Google Docs, des screenshots. L'idée c'était de faire un petit outil où tu pitches toutes tes notes en vrac et l'IA te fait un résumé clean avec les points importants, genre les trucs à retenir. Mais après y avoir pensé, je me suis dit que c'est surtout juste envoyer du texte à une API et afficher le résultat. J'apprendrais pas grand-chose sur comment l'IA fonctionne.
 
 ### Idée 2 – Une todo-list intelligente qui génère tes tâches avec l'IA
-L'idée c'était de faire une app de todo-list, mais pas une todo-list normale où tu écris tes tâches toi-même. L'idée c'est que tu lui donnes un projet ou un objectif (genre « je dois faire un site web pour un client ») et l'IA te génère automatiquement une liste de tâches à faire, dans le bon ordre, avec des priorités. mais au final je me suis rendu compte que comme la premiére idée, la partie IA c'est juste un appel à une API. 
+L'idée c'était de faire une app de todo-list, mais pas une todo-list normale où tu écris tes tâches toi-même. L'idée c'est que tu lui donnes un projet ou un objectif (genre « je dois faire un site web pour un client ») et l'IA te génère automatiquement une liste de tâches à faire, dans le bon ordre, avec des priorités. Mais au final je me suis rendu compte que comme la première idée, la partie IA c'est juste un appel à une API.
 
 ### Idée 3 – Serveur IA self-hosted avec Ollama + interface codée avec Claude (choix retenu)
 Installer un modèle d'IA sur ma machine avec Ollama, configurer le modèle avec un system prompt pour qu'il agisse comme un assistant de support informatique, et coder ma propre interface web (HTML/JS) avec l'aide de Claude. C'est l'idée qui m'attire le plus parce que ça touche à l'infrastructure, à l'IA, et en même temps ça montre comment l'IA peut aider un développeur à coder plus vite.
 
 ### Pourquoi ce choix ?
-J'ai choisi l'idée 3 parce que c'est le projet où j'apprends le plus de nouvelles choses. Je n'ai jamais installé un modèle d'IA moi-même et je suis curieux de voir comment ça marche. En plus, je vais coder avec l'aide de Claude une interface en HTML/JS . Je vais aussi apprendre à configurer le modèle pour qu'il réponde d'une certaine façon, pour qu'il sache qu'il est un assistant de support et qu'il adapte ses réponses en conséquence. Ça me permet de montrer trois choses : je suis capable de mettre en place un serveur IA local, je sais comment personnaliser le comportement d'un modèle, et l'IA est rendue assez forte pour générer du vrai code frontend impressionant.
+J'ai choisi l'idée 3 parce que c'est le projet où j'apprends le plus de nouvelles choses. Je n'ai jamais installé un modèle d'IA moi-même et je suis curieux de voir comment ça marche. En plus, je vais coder avec l'aide de Claude une interface en HTML/JS. Je vais aussi apprendre à configurer le modèle pour qu'il réponde d'une certaine façon, pour qu'il sache qu'il est un assistant de support et qu'il adapte ses réponses en conséquence. Ça me permet de montrer trois choses : je suis capable de mettre en place un serveur IA local, je sais comment personnaliser le comportement d'un modèle, et l'IA est rendue assez forte pour générer du vrai code frontend impressionnant.
 
 Les défis que je vois :
 - Choisir le bon modèle selon les capacités de ma machine
-- Comprendre les différences entre les modèles (taille, performance,cout? etc.)
+- Comprendre les différences entre les modèles (taille, performance, coût, etc.)
 - Écrire un bon system prompt pour que le modèle réponde comme un vrai assistant de support
 - Connecter mon interface web
 - Voir jusqu'où Claude est capable de coder l'interface 
@@ -83,11 +83,15 @@ Voici comment je compte découper mon travail sur 7 jours :
 
 - Faire une démonstration en direct du serveur IA qui répond à des questions de support via mon interface web
 - Montrer que le modèle répond dans le bon contexte grâce au system prompt (il sait qu'il est un assistant de support, il répond pas n'importe quoi)
-- Montrer la différence entre deux modèles ( qualité des réponses)
+- Montrer la différence entre deux modèles (qualité des réponses)
 - Montrer ce que Claude a été capable de générer comme code
 
 
 Pour valider que mon projet fonctionne, je vais préparer une liste de 10 questions de support technique et vérifier que le système donne des réponses utiles et adaptées au contexte de support.
+
+lien git : 
+>https://github.com/monsefram/Projet-cours-technologie
+
 
 ## Utilisation de l'IA
 
